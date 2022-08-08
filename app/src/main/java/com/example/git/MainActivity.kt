@@ -46,3 +46,5 @@ fun DefaultPreview() {
         Greeting("Android")
     }
 }
+
+ini eror

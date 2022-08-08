@@ -45,6 +45,12 @@ fun test(){
     Text(text = "change1")
 }
 
+@Composable
+fun test3(){
+    Text(text = "change 3")
+}
+
+
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {

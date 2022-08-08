@@ -30,8 +30,13 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun age(age: Int){
+    Text(text = "my age $age")
+}
+
+@Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Text(text = "Hello $name! and ${age(2)})")
 }
 
 @Preview(showBackground = true)

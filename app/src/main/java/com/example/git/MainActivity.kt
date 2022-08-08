@@ -41,6 +41,7 @@ fun Greeting(name: String) {
 
 @Composable
 fun test(){
+    Text(text = "change 2")
     Text(text = "change1")
 }
 

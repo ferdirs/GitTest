@@ -39,6 +39,11 @@ fun Greeting(name: String) {
     Text(text = "Hello $name! and ${age(2)})")
 }
 
+@Composable
+fun test(){
+    Text(text = "polisi")
+}
+
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {

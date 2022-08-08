@@ -41,7 +41,7 @@ fun Greeting(name: String) {
 
 @Composable
 fun test(){
-    Text(text = "polisi")
+    Text(text = "change1")
 }
 
 @Preview(showBackground = true)
